@@ -236,3 +236,40 @@ h1 {
 	color:#e63c2e;
 	font-size: 18px;
 }
+
+.latest-products {
+	width: 68vw;
+    margin: auto;
+}
+
+.latest-products-title {
+	font-size: 2vw;
+    text-transform: uppercase;
+}
+
+.latest-products-title span:first-child {
+	color:#9a9a9a;
+}
+
+.latest-products-title span:nth-child(2) {
+	margin-left: 1vw;
+}
+
+.latest-products-header {
+	justify-content: space-between;
+	text-transform: uppercase;
+	padding-bottom: 2vw;
+}
+
+.latest-products {
+	margin-top: 6vw;
+}
+
+.view-all span:first-child {
+	color:#9a9a9a;
+	font-size: 1vw;
+}
+
+.latest-products-item {
+	text-align: center;
+}
