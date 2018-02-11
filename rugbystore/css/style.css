@@ -184,7 +184,6 @@ h1 {
 
 .products {
 	padding-top: 3vw;
-	padding-left: 1vw;
 }
 
 .popular-product-item {
@@ -372,6 +371,8 @@ h1 {
 .our-blog-content {
 	margin-top: 4vw;
 	padding-bottom: 10vw;
+	justify-content: space-between;
+	overflow: hidden;
 }
 
 .our-blog-item p:nth-child(2) {
@@ -392,4 +393,126 @@ h1 {
 .our-blog-item {
 	border-bottom: 1px solid #9a9a9a;
 	padding-bottom: 2vw;
+}
+
+.our-blog-item img {
+	width:31vw;
+}
+
+.menu-bottom-container {
+	width:69vw;
+	margin: auto;
+}
+
+.menu-bottom-content {
+	color:#8c8c8c;
+	text-transform: uppercase;
+	font-size: 13px;
+	justify-content: space-between;
+}
+
+.menu-bottom-block {
+	background: black;
+	padding-top: 2vw;
+	padding-bottom: 4vw;
+	position: relative;
+}
+
+.menu-bottom-col p {
+	margin-top: 1vw;
+}
+
+.menu-bottom-col p:nth-child(2) {
+	margin-top: 2vw;
+}
+
+.menu-bottom-col p:nth-child(1) {
+	font-weight: bold;
+	color:white;
+}
+
+.contact-content {
+	color:white;
+	margin-top: 6vw;
+	justify-content: space-between;
+}
+
+.contact-col input {
+	background: none;
+	border:none;
+	padding:0.5vw;
+	color:white;
+	height:3vw;
+	box-sizing: border-box;
+	padding-left: 0.5vw;
+	width:80%;
+}
+
+.join {
+	border:1px solid #3b3b3f;
+}
+
+.contact-col p:nth-child(2) {
+	margin-top: 2vw;
+}
+
+button {
+	background: #2b2b2d;
+	color:white;
+	border: none;
+	height:3vw;
+	width: 20%;
+	text-transform: capitalize;
+}
+
+input::placeholder{
+	color:white;
+}
+
+.contact-col {
+	padding-top: 3vw;
+	border-top:1px solid #3b3b3f;
+	width:21vw;
+}
+
+.social {
+	line-height: 3vw;
+	width:80%;
+	justify-content: space-between;
+}
+
+.contact-col p:nth-child(1) {
+	text-transform: uppercase;
+}
+
+.contact-text {
+	color:#8c8c8c;
+	font-size: 12px;
+	line-height: 1.5vw;
+}
+
+.container {
+	width:69vw;
+	margin: auto;
+	justify-content: space-between;
+	color:#8c8c8c;
+}
+
+footer {
+	background: #212121;
+	text-transform: uppercase;
+	line-height: 7vw;
+	font-size: 12px;
+}
+
+.borjgali2 {
+	position: absolute;
+	width: 3.5vw;
+    height: 3.5vw;
+    background: white;
+    background-image: url(../images/borjgaliblack.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50%;
+    left:5%;
 }
