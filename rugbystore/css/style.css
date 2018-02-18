@@ -1,3 +1,51 @@
+@font-face {
+  font-family: 'PlayfairDisplay-Black';
+  src: url('../fonts/PlayfairDisplay-Black.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/PlayfairDisplay-Black.otf')  format('opentype'),
+	   url('../fonts/PlayfairDisplay-Black.woff') format('woff'), url('PlayfairDisplay-Black.ttf')  format('truetype'), 
+	   url('../fonts/PlayfairDisplay-Black.svg#PlayfairDisplay-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+font-family:"Montserrat-Bold";
+src:url("../fonts/Montserrat-Bold.eot?") format("eot"),
+    url("../fonts/Montserrat-Bold.woff") format("woff"),
+    url("../fonts/Montserrat-Bold.ttf") format("truetype"),
+    url("../fonts/Montserrat-Bold.svg#Montserrat-Bold") format("svg");
+}
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/Montserrat-Medium.woff') format('woff'), 
+  	   url('../fonts/Montserrat-Medium.ttf')  format('truetype'), 
+  	   url('../fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),  
+       url('../fonts/Gotham-Light.otf')  format('opentype'),
+	   url('../fonts/Gotham-Light.woff') format('woff'), 
+	   url('../fonts/Gotham-Light.ttf')  format('truetype'), 
+	   url('../fonts/Gotham-Light.svg#Gotham-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamMedium';
+  src: url('../fonts/GothamMedium.eot?#iefix') format('embedded-opentype'),  
+       url('../fonts/GothamMedium.woff') format('woff'), 
+       url('../fonts/GothamMedium.ttf')  format('truetype'), 
+       url('../fonts/GothamMedium.svg#GothamMedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 header {
 	height:46.5vw;
 	background: #ebebeb;
@@ -26,6 +74,7 @@ header {
 	margin:0 auto;
 	justify-content: space-between;
 	line-height: 3.5vw;
+	font-family:"Montserrat-Bold";
 }
 
 .nav {
@@ -92,6 +141,7 @@ h1 {
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
+    font-family: 'PlayfairDisplay-Black';
 }
 
 .mainimage {
@@ -130,10 +180,12 @@ h1 {
 }
 
 .more-products p:nth-child(1) {
+	font-family:"Montserrat-Bold";
 	font-size: 0.8vw;
 }
 
 .more-products p:nth-child(2) {
+	font-family: 'Montserrat-Medium';
 	font-size: 0.7vw;
 	color:#959595;
 }
@@ -191,6 +243,7 @@ h1 {
 	margin-left: 5vw;
 	font-weight: bold;
     font-size: 12px;
+    font-family:"Montserrat-Bold";
 }
 
 .arrow-buttons-block {
@@ -202,6 +255,11 @@ h1 {
 .popular-products-description {
 	width:15vw;
 }
+.popular-products-description p {
+	font-family: 'Gotham-Light';
+}
+
+
 
 .popular-products-description p:nth-child(3) {
 	color:#979494;
@@ -212,6 +270,7 @@ h1 {
 
 .popular-products-description p:nth-child(2) {
 	margin-top: 0.5vw;
+	font-weight: bold;
 }
 
 .popular-dots {
@@ -223,6 +282,10 @@ h1 {
 	text-transform: capitalize;
 	margin-top: 1vw;
 	padding-bottom: 1vw;
+}
+
+.popular-product-item p:nth-child(2) {
+	margin-top: 1vw;
 }
 
 /*.popular-product-item p:nth-child(4) span {
@@ -244,6 +307,7 @@ h1 {
 .latest-products-title {
 	font-size: 2vw;
     text-transform: uppercase;
+
 }
 
 .latest-products-title span:first-child {
@@ -252,12 +316,14 @@ h1 {
 
 .latest-products-title span:nth-child(2) {
 	margin-left: 1vw;
+	font-weight: bold;
 }
 
 .latest-products-header {
 	justify-content: space-between;
 	text-transform: uppercase;
 	padding-bottom: 2vw;
+	font-family: 'Gotham-Light';
 }
 
 .latest-products {
@@ -267,6 +333,10 @@ h1 {
 .view-all span:first-child {
 	color:#9a9a9a;
 	font-size: 1vw;
+}
+
+.view-all span:nth-child(2) {
+	font-weight: bold;
 }
 
 .latest-products-item {
@@ -303,6 +373,7 @@ h1 {
 .latest-products-size {
 	position: relative;
 	width:10vw;
+	font-family: 'Montserrat-Medium';
 }
 
 
@@ -344,6 +415,8 @@ h1 {
 
 .latest-products-content {
 	flex-wrap: wrap;
+	font-family:"Montserrat-Bold";
+
 }
 
 .latest-products-item img:nth-child(3) {
@@ -366,6 +439,7 @@ h1 {
 	width:69vw;
 	margin:auto;
 	padding-top: 5vw;
+	font-family: 'Gotham-Light';
 }
 
 .our-blog-content {
@@ -373,14 +447,15 @@ h1 {
 	padding-bottom: 10vw;
 	justify-content: space-between;
 	overflow: hidden;
+	font-family: 'Gotham-Light';
 }
 
 .our-blog-item p:nth-child(2) {
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 1vw;
 	background-image: url(../images/arrowright.png);
 	background-repeat: no-repeat;
-	background-position: 76% 50%;
+	background-position: 84% 50%;
 }
 
 .our-blog-item p:nth-child(3) {
@@ -393,6 +468,7 @@ h1 {
 .our-blog-item {
 	border-bottom: 1px solid #9a9a9a;
 	padding-bottom: 2vw;
+	width:31vw;
 }
 
 .our-blog-item img {
@@ -416,6 +492,7 @@ h1 {
 	padding-top: 2vw;
 	padding-bottom: 4vw;
 	position: relative;
+	font-family: 'GothamMedium';
 }
 
 .menu-bottom-col p {
@@ -503,6 +580,7 @@ footer {
 	text-transform: uppercase;
 	line-height: 7vw;
 	font-size: 12px;
+	font-family: 'GothamMedium';
 }
 
 .borjgali2 {
