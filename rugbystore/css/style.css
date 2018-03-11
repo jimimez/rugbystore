@@ -169,6 +169,10 @@ h1 {
 	padding: 0.5vw 1vw;
 }
 
+.arrow-buttons span {
+	cursor: pointer;
+}
+
 .more-products {
 	background: black;
 	color: white;
@@ -466,9 +470,11 @@ h1 {
 }
 
 .our-blog-item {
+	display: inline-block;
 	border-bottom: 1px solid #9a9a9a;
 	padding-bottom: 2vw;
 	width:31vw;
+	text-align:initial;
 }
 
 .our-blog-item img {
@@ -593,4 +599,8 @@ footer {
     background-position: center center;
     background-size: 50%;
     left:5%;
+}
+
+.item {
+	text-align: center;
 }
